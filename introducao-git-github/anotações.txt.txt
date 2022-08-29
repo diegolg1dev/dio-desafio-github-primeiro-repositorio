@@ -1,0 +1,49 @@
+Diego Lima  GIT E GITHUB
+COMANDOS NECESSÁRIOS
+Windows + c: abre o terminal de comando do windows
+
+dir: comando para você se situar listar, saber onde você está, traz diretórios onde você está situado
+cd / + enter : comando que permite você navegar entre as pastas do sistema operacional. Ex. cd / +enter . ele vai lhe levar para a base diretoria do comando C/. se você em seguida digitar o dir em seguida,  ele vai te listar todas as pastas presentes no diretório da pasta C. Ex. se vc digitar cd windows, ele vai lhe levar para a base diretoria do windows, em seguida digitar o dir em seguida,  ele vai te listar todas as pastas presentes no diretório da pasta windows
+ls para listar todas as pastas utilizadas dentro do C
+Para fazer o caminho inverso, voltar: cd.. 
+cls comando para limpar a tela no windows.
+TAB tem a função de auto completar. ex. se você digitar cd win…. e clicar TAB ele completa a palavra pq sabe que na pasta onde você está tem uma pasta do windows
+CTRL +L limpa a tela
+ecko printa para você o que digitou.
+> é um redirecionador de fluxo
+para criar uma pasta você entra no arquivo desejado e digita > e o nome da pasta que deseja txt.
+del ele se restringe apenas em deletar arquivos
+seta para cima, mostra o histórico de comandos que você já utilizou nesse terminal.
+rmdir Comando para remover o repositório com todos os arquivos que estiverem dentro dele. EX. emdir workspace /s /q
+Chave SSH estabelece uma conexão segura e encriptada, existe sempre a chave pública e a chave privada,
+CHAVES SSH
+
+Your identification has been saved in /c/Users/diego.gomes/.ssh/id_ed25519
+Your public key has been saved in /c/Users/diego.gomes/.ssh/id_ed25519.pub
+
+SHA256:W7fYPtN3XyXU9J6CRC+O1LVAvk5M0BnlB8AXCAxSV/c contatodiego@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|     ..oo+*B**. .|
+|      . ..==*.+o.|
+|         . *.+.Eo|
+|        . * +....|
+|        S..*....o|
+|         oo+ ....|
+|        . ..o.  .|
+|           .o . +|
+|            .o .+|
++----[SHA256]-----+
+
+
+Código para criar um repositório, mkdir
+a flag -a mostra arquivos ocultos 
+git config –list : Mostra todas suas configurações 
+git config --global user.email "dlcontatodiego@gmail.com" : Para alterar seu email 
+git config --global user.nickname "Diego" : Para alterar seu Nickname 
+git remote add origin : Para passar o endereço de origem local para um repositório remoto
+git remote -v: ele vai listar para você as listas de repositórios remotos que eu tenho cadastrado. EX: $ git remote -v
+origin  https://github.com/diegolg1dev/livro-receitas.git (fetch)
+origin  https://github.com/diegolg1dev/livro-receitas.git (push)
+git push origin master: é o comando que vai levar o nosso repositório local para o repositório remoto
+git pull origin master: ele vai puxar o arquivo que está no github
